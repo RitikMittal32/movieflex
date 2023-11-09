@@ -74,7 +74,7 @@ export const DetailsBanner = ({ video, crew }) => {
                         className="playButton"
                         onClick={() => {
                           setShow(true);
-                          setVideoId(video.key);
+                          setVideoId(video?.key);
                         }}
                       >
                         <PlayButton />

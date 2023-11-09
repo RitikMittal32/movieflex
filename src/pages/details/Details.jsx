@@ -23,8 +23,8 @@ export const Details = () => {
   return (
     <div>
       <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} />
-      <Cast data={credits?.cast} loading={creditsLoading} />
-      <VideosSection data={data} loading={loading} />
+      {/* <Cast data={credits?.cast} loading={creditsLoading} /> */}
+      {/* <VideosSection data={data} loading={loading} /> */}
       {/* <DetailsBanner video={data?.results?.[0]} crew={credits?.crew} /> */}
       {/* <Cast data={credits?.cast} loading={creditsLoading} />
       <VideosSection data={data} loading={loading} />
